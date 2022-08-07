@@ -1,0 +1,10 @@
+cv2
+numpy
+time
+speech_recognition
+pyttsx3
+os
+pyaudio
+simple_facerec
+glob
+face_recognition

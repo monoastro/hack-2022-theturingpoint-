@@ -1,0 +1,29 @@
+Team Name: The Turing Point
+
+Theme:
+Application of existing technologies for Social Good
+
+Idea Title:
+Visual Assistance for the Visually Impaired
+
+IDEA PITCH
+
+Introduction to Problem:
+-In this 21st century, a world of technologies, one problem that is yet to be solved are the challenges invited by visual impairness.
+Even today there are nearly 285 million people in the world that are visually impaired. Although technology has grown leaps
+and bounds, technological assistance for such differently abled people are still far and few between and the easy accessibility of
+the world's features without assistance from others is a concept that is still quite foreign and far-fetched.
+-Keeping the above factors in mind, we wanted to come up with a technological solution for assistance for the visually impaired.
+The primary objective is to make their life easier by guiding them to the objects that they need using vibration and guiding them to avoid objects like
+proximity sensors, among other things, when they're outdoors.
+
+Our Approach for Solution:
+For the first part of indoor guidance, the user of our system speaks into a microphone, the audio is then sent for voice recognition to decipher
+their required object. We then pass it into an object detection algorithm to get the coordinates of the desired object and finally vibration
+/text-to-speech to guide them to the object. The choice of using vibration motors is a deliberate one as blind people are known to have their
+brain automatically rewired for increased sensitivity and effectiveness of their other senses.
+
+Platform/Technology we will use:
+-Raspberry Pi
+-Objection Detection using openCV
+-Voice Recognition

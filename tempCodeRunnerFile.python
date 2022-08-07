@@ -1,0 +1,29 @@
+import speech_recognition as sr
+
+def recog():
+    recognizer = sr.Recognizer()
+    index = 13
+    mic = sr.Microphone(device_index = index, chunk_size=1024, sample_rate=48000)
+    
+    while (True):
+        try:
+            with mic as source:
+                recognizer.adjust_for_ambient_noise(source, duration=0.5)
+                print("Say something!")
+                #record audio for 5 seconds
+                
+                audio = recognizer.listen(source, phrase_time_limit = 5)
+
+                object_name = recognizer.recognize_google(audio)
+                object_name = object_name.lower()
+
+                print(f"You said: {object_name}")
+                # return object_name
+                #return set(object_name.split(" "))
+        except Exception:
+            recognizer = sr.Recognizer()
+            continue
+
+
+
+recog()

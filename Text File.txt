@@ -1,0 +1,5 @@
+-real time object detection [done]
+-real time one desired object detection [done]
+-video input through any arbitrary phone[not done] + webcam[done]
+-speech recognition[done]
+-integration of speech recognition with one desired object detection to get voice activated detection[done]

@@ -1,0 +1,7 @@
+*.txt !requirements.txt
+*.pdf
+yolov3.weights
+yolov3-tiny.weights
+sTobjDetection/testingData/videos
+sTobjDetection/train
+speechRecog/env

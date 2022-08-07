@@ -1,0 +1,4 @@
+object_name = "Hello my name is"
+a = set(object_name.split(" "))
+
+print(a)
